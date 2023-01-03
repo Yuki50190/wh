@@ -173,7 +173,6 @@ body{
   font-size: 20px;
   font-family: sans-serif;
   padding: 14px 10px}
-  
 ul{
 padding: 14px
 }
@@ -185,13 +184,26 @@ li{
 
 .about{
   background: #222;
+  padding: 8px;
+  font-size: 20px;
+     transform: scale(1);
+	  transition: all 0.9s ease 0s;
 }
 
 .list{
   background: #222;
+  padding: 8px;
+  font-size: 20px;
+     transform: scale(1);
+	  transition: all 0.9s ease 0s;
 }
 
 .navi{
+  display: flex;
+  justify-content: space-around;
   background: #222; 
   height: 50px
+}
+.bacd{
+ 
 }
